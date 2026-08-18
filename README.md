@@ -189,7 +189,7 @@
 <body>
 
   <header>
-    <h1>Nursing Fundamentals: Tool Matcher</h1>
+    <h1>MediMatch:A Gamified E-Learning Tool for Enhancing Medical Equipment Recognition Among Nursing Students</h1>
     <p>Click a picture on the left, then click its matching name on the right.</p>
   </header>
 
