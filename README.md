@@ -6,13 +6,13 @@
   <title>Nursing Tool Matching Game</title>
   <style>
     :root {
-      --primary: #0077b6;
-      --secondary: #00b4d8;
-      --success: #2a9d8f;
-      --error: #e63946;
-      --bg: #f4f9f9;
+      --primary: #9c27b0;      /* Ungu Utama */
+      --secondary: #e91e63;    /* Pink Utama */
+      --success: #2a9d8f;      /* Hijau lembut bila jawapan betul */
+      --error: #e63946;        /* Merah bila jawapan salah */
+      --bg: #fdf2f8;           /* Latar Belakang Pink/Ungu Pastel */
       --card-bg: #ffffff;
-      --text: #1d3557;
+      --text: #4a148c;         /* Warna Teks Ungu Gelap */
     }
 
     * {
@@ -44,7 +44,7 @@
     }
 
     p {
-      color: #555;
+      color: #6a1b9a;
       font-size: 0.95rem;
     }
 
@@ -55,12 +55,12 @@
       background: white;
       padding: 10px 24px;
       border-radius: 30px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      box-shadow: 0 2px 8px rgba(156, 39, 176, 0.15);
       font-weight: 600;
     }
 
     .stats-bar span {
-      color: var(--primary);
+      color: var(--secondary);
     }
 
     .matching-container {
@@ -88,7 +88,7 @@
 
     .item-card {
       background: var(--card-bg);
-      border: 2px solid #cbd5e1;
+      border: 2px solid #f3d5f7;
       border-radius: 12px;
       padding: 10px;
       display: flex;
@@ -108,8 +108,8 @@
 
     .item-card.selected {
       border-color: var(--primary);
-      background-color: #e0f2fe;
-      box-shadow: 0 0 0 3px rgba(0, 119, 182, 0.3);
+      background-color: #f3e8ff;
+      box-shadow: 0 0 0 3px rgba(156, 39, 176, 0.3);
     }
 
     .item-card.matched {
@@ -149,7 +149,7 @@
       font-weight: 600;
       border-radius: 20px;
       cursor: pointer;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 6px rgba(156, 39, 176, 0.2);
       transition: background 0.2s, transform 0.1s;
     }
 
