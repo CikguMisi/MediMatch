@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nursing Tool Matching Game</title>
+  <title>MediMatch:A Gamified E-Learning Tool for Enhancing Medical Equipment Recognition Among Nursing Students</title>
   <style>
     :root {
       --primary: #9c27b0;      /* Ungu Utama */
